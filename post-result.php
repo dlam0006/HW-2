@@ -3,8 +3,8 @@ $pageTitle = "Post Result";
 include "view-header";
 ?>
 <h1>Post Result</h1>
-<?php>
-  if (isset($_POST['my-name'])) {
+<?php
+  if(isset($_POST['my-name'])) {
 ?>
     <p>The value sent is:</p>
 <?php
